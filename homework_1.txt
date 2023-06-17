@@ -1,0 +1,135 @@
+   0 ls
+   1 mkdir animals
+   2 ls
+   3 mkdir /animals/cats
+   4 cd /animals
+   5 ls
+   6 tree
+   7 mkdir animals/cats
+   8 mkdir animals/dogs
+   9 mkdir animals/fish
+  10 tree
+  11 touch /animals/cats/garfield.txt
+  12 touch animals/cats/garfield.txt
+  13 touch animals/dogs/pluto.txt
+  14 touch animals/fish/nemo.txt
+  15 tree
+  16 mkdir planets
+  17 tree
+  18 mkdir -p /opt && touch /opt/Mars.txt
+  19 tree
+  20 mkdir opt
+  21 tree
+  22 touch opt/Mars.txt
+  23 touch opt/Venus.txt
+  24 touch opt/Jupiter.txt
+  25 touch opt/Mercury.txt
+  26 tree
+  27 cd /opt
+  28 mv Mars.txt /planets
+  29 mv Venus.txt /planets
+  30 tree
+  31 cd /
+  32 tree
+  33 /
+  34 cd /opt
+  35 whoami
+  36 ls
+  37 cd /animals
+  38 cd /root
+  39 ls
+  40 tree
+  41 cd opt
+  42 ls
+  43 mv Mars.txt /planets
+  44 mv Venuss.txt /planets
+  45 mv Venus.txt /planets
+  46 mv Jupiter.txt /planets
+  47 mv Mercury.txt /planets
+  48 cd /planets
+  49 cd planets
+  50 cd /root
+  51 ls
+  52 tree
+  53 ls
+  54 tree
+  55 pwd
+  56 whoami
+  57 cd
+  58 cd /
+  59 ls
+  60 ls /home/
+  61 ls /root/
+  62 cd
+  63 cd /opt
+  64 touch Mars.txt
+  65 touch Venus.txt
+  66 touch Jupiter.txt
+  67 touch Mercury.txt
+  68 ls
+  69 cd
+  70 cd /home
+  71 ls
+  72 cd
+  73 mkdir -p /root/home/planets
+  74 cd /home
+  75 ls
+  76 cd
+  77 tree
+  78 touch /tmp/adam.txt
+  79 cd /tmp
+  80 ls
+  81 cd /root
+  82 cp /tmp/adam.txt /root/humans
+  83 cd /
+  84 tree
+  85 cd /root
+  86 tree
+  87 cd
+  88 cd /
+  89 ls
+  90 cd /tmp
+  91 ls
+  92 cd /root
+  93 ls
+  94 cd /humans
+  95 cp /tmp/adam.txt $$ mkdir -p /root/humans
+  96 mkdir /root/humans
+  97 cp /tmp/adam.txt && mkdir -p /root/humans/
+  98 mkdir -p /root/humans/
+  99 ls
+ 100 mkdir humans
+ 101 pwd
+ 102 rm humans
+ 103 ls
+ 104 mkdir humans
+ 105 ls
+ 106 cp /tmp/adam.txt /root/humans/
+ 107 cd /humans
+ 108 cd /root/humans
+ 109 ls
+ 110 cd /root
+ 111 touch /tmp/evA.txt
+ 112 cd /tmp
+ 113 ls
+ 114 mv /tmp/evA.txt /opt/eve.txt
+ 115 cd /opt
+ 116 ls
+ 117 mv /opt/eve.txt /root/humans
+ 118 ls
+ 119 cd /root/humans
+ 120 ls
+ 121 cd
+ 122 tree
+ 123 ls
+ 124 mv /opt/Mars.txt /root/planets/
+ 125 mv /opt/Venus.txt /root/planets/
+ 126 mv /opt/Mercury.txt /root/planets/
+ 127 mv /opt/Jupiter.txt /root/planets/
+ 128 cd /opt
+ 129 ls
+ 130 cd /root/planets
+ 131 ls
+ 132 history
+ 133 cd
+ 134 history > homework_1.txt
