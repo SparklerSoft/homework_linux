@@ -1,0 +1,26 @@
+   0 touch /opt/homework.txt
+   1 date > opt/homework.txt
+   2 date > /opt/homework.txt
+   3 mkdir -p /tmp/hw3/newfile/sergey
+   4 echo "Homework 3" >> /opt/homework.txt
+   5 cd /
+   6 df >> /opt/homework.txt
+   7 history | tail -5 >> /opt/homework.txt
+   8 cd /proc/cpuinfo
+   9 /proc/cpuinfo
+  10 sudo /proc/cpuinfo
+  11 ps -ef /proc/cpuinfo
+  12 ps -ef | wc -root
+  13 ps -ef | awk '{print$4}'
+  14 cd proc/
+  15 ls
+  16 cat cpuinfo
+  17 cat cpuinfo | grep -w vendor >> /opt/homework.txt
+  18 nano
+  19 cat cpuinfo | grep -w vendor_id
+  20 cat cpuinfo | grep -w vendor_id >> /opt/homework.txt
+  21 nano
+  22 cat /opt/homework.txt | wc -l
+  23 $ sed '1,12d' /opt/homework.txt
+  24  sed '1,12d' /opt/homework.txt
+  25 touch /opt/homework3.txt; history > /opt/homework3.txt
