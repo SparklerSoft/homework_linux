@@ -1,0 +1,6 @@
+#!/bin/bash
+ 
+echo -n  "your name is: "; whoami
+echo "your working directory is: "; pwd
+echo "Number of users: "; cat /proc/cpuinfo | wc | awk '{print $1}'
+echo "done"
